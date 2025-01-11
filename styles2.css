@@ -400,9 +400,17 @@ to {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   h1, h2, h3 {
     font-size: 18px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .section {
+    padding: 15px;
   }
 
   .container {
@@ -418,28 +426,11 @@ to {
     width: 60px;
     height: 60px;
   }
-}
-
-
-@media (max-width: 480px) {
-  h1, h2, h3 {
-    font-size: 18px;
-  }
-
-  .container {
-    padding: 10px;
-  }
-
-  button {
-    font-size: 14px;
-    padding: 8px 16px;
-  }
 
   .skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
-    gap: 1.5rem; /* Ajusta el espaciado entre los elementos */
+    gap: 2.5rem; /* Ajusta el espaciado entre los elementos */
     text-align: center;
   }
 }
-
